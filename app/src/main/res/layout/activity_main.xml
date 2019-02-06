@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintTela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/RadioGroupCores"
+        android:layout_width="0dp"
+        android:layout_height="218dp"
+
+        android:layout_marginBottom="474dp"
+        android:background="@color/colorPersonalAmarelo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo">
+
+        <RadioButton
+            android:id="@+id/radioButtonVermelho"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Vermelho" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAmarelo"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Amarelo" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAzul"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Azul" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="70dp"
+        android:text="Projeto mudar cor"
+        app:layout_constraintBottom_toTopOf="@+id/RadioGroupCores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

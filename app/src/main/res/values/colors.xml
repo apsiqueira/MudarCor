@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#89CFC8</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPersonalAmarelo">#FFFF00</color>
+    <color name="colorPersonalVermelho">#FF0000</color>
+    <color name="colorPersonalAzul">#6495ED</color>
+</resources>
